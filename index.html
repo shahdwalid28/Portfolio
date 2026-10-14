@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shahd Walid | Full-Stack Developer (.NET Backend)</title>
+  <meta name="description" content="Personal developer portfolio of Shahd Walid, a Full-Stack Developer focused on .NET Backend Development, ASP.NET Core, Web APIs, and SQL Server.">
+  <meta name="keywords" content="Shahd Walid, .NET Developer, Backend Developer, C#, ASP.NET Core, Full-Stack, Portfolio, Egypt">
+  <meta name="author" content="Shahd Walid">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shahd Walid | Full-Stack Developer (.NET Backend)">
+  <meta property="og:description" content="Portfolio showcasing .NET backend projects, technical training, skills, and full-stack web development.">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Skip to content for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Navigation Bar -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand" aria-label="Shahd Walid - Home">
+        <span class="brand-badge">SW</span>
+        <span class="brand-text">Shahd<span class="brand-accent">.Walid</span></span>
+      </a>
+
+      <!-- Mobile Navigation Toggle -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Nav Links & Controls -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <!-- Theme Toggle -->
+          <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Switch to light mode" title="Toggle color theme">
+            <!-- Sun Icon (for light mode) -->
+            <svg class="theme-icon icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <!-- Moon Icon (for dark mode) -->
+            <svg class="theme-icon icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+
+          <!-- Direct CV Header Button -->
+          <a href="https://drive.google.com/file/d/15Nksk6MhmTsYX-2U_2-Qhi1ewCUg0cTZ/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline nav-cv-btn">
+            <span>Resume</span>
+            <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section class="section hero" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge-wrapper animate-on-scroll">
+            <img src="images/shahd-walid.png" alt="Shahd Walid" class="hero-avatar-mini">
+            <span class="status-indicator"></span>
+            <span class="hero-badge-text">Available for Internships & Junior Roles</span>
+          </div>
+
+          <h1 class="hero-title animate-on-scroll">
+            Hi, I'm <span class="text-gradient">Shahd Walid</span>
+          </h1>
+
+          <p class="hero-subtitle animate-on-scroll">
+            Full-Stack Developer <span class="divider-dot">•</span> <span class="highlight-role">Focused on .NET Backend Development</span>
+          </p>
+
+          <p class="hero-description animate-on-scroll">
+            I build practical web applications and APIs with .NET, combining backend development, database design, and full-stack fundamentals to create reliable digital solutions.
+          </p>
+
+          <div class="hero-cta-group animate-on-scroll">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+            </a>
+            <a href="https://drive.google.com/file/d/15Nksk6MhmTsYX-2U_2-Qhi1ewCUg0cTZ/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+              <span>Download CV</span>
+            </a>
+          </div>
+
+          <!-- Quick Tech Stack Highlights -->
+          <div class="hero-tech-strip animate-on-scroll">
+            <span class="tech-strip-label">Core Focus:</span>
+            <div class="tech-tags">
+              <span class="tech-tag">C#</span>
+              <span class="tech-tag">ASP.NET Core</span>
+              <span class="tech-tag">Web API</span>
+              <span class="tech-tag">SQL Server</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual animate-on-scroll" aria-hidden="true">
+          <div class="code-terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <div class="terminal-title">DeveloperProfile.cs</div>
+            </div>
+            <div class="terminal-body">
+              <pre><code><span class="token-keyword">public class</span> <span class="token-class">DeveloperProfile</span>
+{
+    <span class="token-keyword">public string</span> <span class="token-property">Name</span> { <span class="token-keyword">get</span>; } = <span class="token-string">"Shahd Walid"</span>;
+    <span class="token-keyword">public string</span> <span class="token-property">Focus</span> { <span class="token-keyword">get</span>; } = <span class="token-string">".NET Backend"</span>;
+    <span class="token-keyword">public string</span> <span class="token-property">Location</span> { <span class="token-keyword">get</span>; } = <span class="token-string">"Assiut, Egypt"</span>;
+
+    <span class="token-keyword">public string[]</span> <span class="token-property">CoreStack</span> => <span class="token-keyword">new</span>[]
+    {
+        <span class="token-string">"C#"</span>,
+        <span class="token-string">"ASP.NET Core"</span>,
+        <span class="token-string">"Entity Framework Core"</span>,
+        <span class="token-string">"SQL Server"</span>
+    };
+
+    <span class="token-keyword">public bool</span> <span class="token-method">ReadyForOpportunities</span>() => <span class="token-boolean">true</span>;
+}</code></pre>
+            </div>
+            <div class="terminal-footer">
+              <span class="status-dot"></span>
+              <span>Solution build succeeded</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-tag">Background</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left: Developer Avatar / Visual Card -->
+          <div class="about-visual-column animate-on-scroll">
+            <div class="profile-card">
+              <div class="avatar-container">
+                <div class="profile-photo-wrapper">
+                  <div class="profile-photo-glow"></div>
+                  <div class="profile-photo-ring">
+                    <img src="images/shahd-walid.png" alt="Shahd Walid - Full-Stack Developer" class="profile-photo" loading="eager">
+                  </div>
+                  <div class="profile-tech-badge" title=".NET Backend Developer">
+                    <span class="tech-badge-dot"></span>
+                    <span class="tech-badge-text">.NET</span>
+                  </div>
+                </div>
+              </div>
+              <div class="profile-card-details">
+                <h3 class="profile-name">Shahd Walid</h3>
+                <p class="profile-subtitle">Junior Full-Stack Developer</p>
+                <div class="profile-location">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <span>Assiut, Egypt</span>
+                </div>
+              </div>
+              <div class="profile-status-badge">
+                <span class="status-pulse"></span>
+                <span>Open to Internships & Junior Roles</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Narrative & Key Attributes -->
+          <div class="about-content-column animate-on-scroll">
+            <h3 class="about-headline">
+              Passionate about building solid backend architectures and practical web applications.
+            </h3>
+            
+            <p class="about-text">
+              I am a web developer focused on building web applications and APIs using .NET technologies. I value clean, maintainable code and reliable software solutions. Through hands-on projects and technical training, I am continuously developing my backend and full-stack development skills to build practical applications that address real user needs.
+            </p>
+
+            <p class="about-text">
+              My core emphasis centers on C# and ASP.NET Core, where I design RESTful APIs, manage relational data with Entity Framework Core and SQL Server, and implement clean architectures. Alongside backend development, I possess a solid understanding of frontend workflows and responsive web interfaces, allowing me to collaborate smoothly across the entire stack.
+            </p>
+
+            <!-- Quick Fact Info Grid -->
+            <div class="quick-facts-grid">
+              <div class="fact-card">
+                <div class="fact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <div class="fact-info">
+                  <span class="fact-label">Experience Level</span>
+                  <span class="fact-value">Junior Developer</span>
+                </div>
+              </div>
+
+              <div class="fact-card">
+                <div class="fact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                    <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                    <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                    <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                  </svg>
+                </div>
+                <div class="fact-info">
+                  <span class="fact-label">Primary Focus</span>
+                  <span class="fact-value">.NET Backend & APIs</span>
+                </div>
+              </div>
+
+              <div class="fact-card">
+                <div class="fact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                  </svg>
+                </div>
+                <div class="fact-info">
+                  <span class="fact-label">Location</span>
+                  <span class="fact-value">Assiut, Egypt</span>
+                </div>
+              </div>
+
+              <div class="fact-card">
+                <div class="fact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                  </svg>
+                </div>
+                <div class="fact-info">
+                  <span class="fact-label">Career Interests</span>
+                  <span class="fact-value">Internships, Junior Roles, Freelance</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Focus areas list -->
+            <div class="about-pillars">
+              <div class="pillar-item">
+                <svg class="pillar-check" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>C# & ASP.NET Core Development</span>
+              </div>
+              <div class="pillar-item">
+                <svg class="pillar-check" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>RESTful API Design & Implementation</span>
+              </div>
+              <div class="pillar-item">
+                <svg class="pillar-check" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>EF Core Code First & SQL Server</span>
+              </div>
+              <div class="pillar-item">
+                <svg class="pillar-check" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Clean, Maintainable & Scalable Code</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">
+            Technologies and engineering concepts studied, practiced, and applied across projects.
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="skills-categories-grid">
+          
+          <!-- Category 1: Programming Languages -->
+          <div class="skill-category-card animate-on-scroll">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="category-title">Programming Languages</h3>
+            </div>
+            <ul class="skill-tags-list">
+              <li class="skill-badge highlight">C#</li>
+              <li class="skill-badge">JavaScript</li>
+              <li class="skill-badge">C++</li>
+            </ul>
+          </div>
+
+          <!-- Category 2: Backend Development -->
+          <div class="skill-category-card featured-category animate-on-scroll">
+            <div class="category-badge-featured">Primary Focus</div>
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" border-color="currentColor">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+              </div>
+              <h3 class="category-title">Backend Development</h3>
+            </div>
+            <ul class="skill-tags-list">
+              <li class="skill-badge highlight">ASP.NET Core</li>
+              <li class="skill-badge highlight">ASP.NET Core MVC</li>
+              <li class="skill-badge highlight">ASP.NET Core Web API</li>
+              <li class="skill-badge">RESTful APIs</li>
+              <li class="skill-badge">Entity Framework Core</li>
+              <li class="skill-badge">LINQ</li>
+              <li class="skill-badge">JWT Authentication & Authorization</li>
+            </ul>
+          </div>
+
+          <!-- Category 3: Frontend Development -->
+          <div class="skill-category-card animate-on-scroll">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <h3 class="category-title">Frontend Development</h3>
+            </div>
+            <ul class="skill-tags-list">
+              <li class="skill-badge">HTML5</li>
+              <li class="skill-badge">CSS3</li>
+              <li class="skill-badge">JavaScript</li>
+              <li class="skill-badge">Bootstrap</li>
+              <li class="skill-badge">React</li>
+              <li class="skill-badge">TypeScript</li>
+              <li class="skill-badge">Responsive Web Design</li>
+            </ul>
+          </div>
+
+          <!-- Category 4: Databases -->
+          <div class="skill-category-card animate-on-scroll">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">Databases</h3>
+            </div>
+            <ul class="skill-tags-list">
+              <li class="skill-badge highlight">Microsoft SQL Server</li>
+            </ul>
+          </div>
+
+          <!-- Category 5: Tools & Development Environment -->
+          <div class="skill-category-card animate-on-scroll">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">Tools & Environment</h3>
+            </div>
+            <ul class="skill-tags-list">
+              <li class="skill-badge">Git</li>
+              <li class="skill-badge">GitHub</li>
+              <li class="skill-badge">Visual Studio</li>
+              <li class="skill-badge">Visual Studio Code</li>
+              <li class="skill-badge">Docker Basics</li>
+            </ul>
+          </div>
+
+          <!-- Category 6: Core Concepts -->
+          <div class="skill-category-card animate-on-scroll">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <h3 class="category-title">Core Concepts</h3>
+            </div>
+            <ul class="skill-tags-list">
+              <li class="skill-badge">Object-Oriented Programming (OOP)</li>
+              <li class="skill-badge">MVC Architecture</li>
+              <li class="skill-badge">Entity Framework Core Code First</li>
+              <li class="skill-badge">Relational Database Fundamentals</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            Hands-on software projects showcasing backend architecture, data management, and problem-solving skills.
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: E-Commerce Web Application -->
+          <article class="project-card animate-on-scroll">
+            <div class="project-card-header">
+              <div class="project-type-badge">Individual Project</div>
+              <div class="project-icon-indicator" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="9" cy="21" r="1"></circle>
+                  <circle cx="20" cy="21" r="1"></circle>
+                  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">E-Commerce Web Application</h3>
+              
+              <p class="project-description">
+                A full-stack e-commerce web application developed using C#, ASP.NET MVC, Entity Framework Core, and SQL Server. The application allows customers to browse products, view product details, and manage shopping cart items, including adding or removing products and updating quantities.
+              </p>
+
+              <p class="project-description-secondary">
+                It includes user registration and authentication using ASP.NET Core Identity, along with an administrative interface for managing products, users, and orders. Product images are uploaded to the <code>wwwroot</code> directory, with their file paths stored in the database. The application also includes integration with an external payment gateway for electronic payments.
+              </p>
+
+              <!-- Key Features -->
+              <div class="project-features-block">
+                <h4 class="features-heading">Key Features:</h4>
+                <ul class="features-list">
+                  <li>Product browsing and detailed specification views</li>
+                  <li>Full CRUD functionality for product management</li>
+                  <li>User registration & authentication via ASP.NET Core Identity</li>
+                  <li>Shopping cart management with dynamic quantity updates</li>
+                  <li>Administrative management for products, users, and orders</li>
+                  <li>Secure file upload handling for product media (<code>wwwroot</code>)</li>
+                  <li>External payment gateway integration for transactions</li>
+                  <li>MVC architecture structured with EF Core Code First</li>
+                </ul>
+              </div>
+
+              <!-- Tech Badges -->
+              <div class="project-tech-badges" aria-label="Technologies used">
+                <span class="tech-pill">C#</span>
+                <span class="tech-pill">ASP.NET MVC</span>
+                <span class="tech-pill">ASP.NET Core Identity</span>
+                <span class="tech-pill">EF Core</span>
+                <span class="tech-pill">SQL Server</span>
+                <span class="tech-pill">HTML5</span>
+                <span class="tech-pill">CSS3</span>
+                <span class="tech-pill">JavaScript</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="#" class="btn btn-sm btn-primary project-action-btn" data-action="placeholder-demo" aria-label="View E-Commerce Project demo link placeholder">
+                <span>View Project</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+              <a href="#" class="btn btn-sm btn-outline project-action-btn" data-action="placeholder-repo" aria-label="View E-Commerce GitHub repository link placeholder">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub Repository</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Student Management System -->
+          <article class="project-card animate-on-scroll">
+            <div class="project-card-header">
+              <div class="project-type-badge">Individual Project</div>
+              <div class="project-icon-indicator" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Student Management System</h3>
+              
+              <p class="project-description">
+                A console-based student management application developed in C++. The application enables users to add, view, search, update, and delete student records, as well as enter and display student grades.
+              </p>
+
+              <p class="project-description-secondary">
+                The project applies Object-Oriented Programming principles and uses classes and objects to organize the code. Student data is managed in memory during program execution.
+              </p>
+
+              <!-- Key Features -->
+              <div class="project-features-block">
+                <h4 class="features-heading">Key Features:</h4>
+                <ul class="features-list">
+                  <li>Add and view student demographic and academic records</li>
+                  <li>Search student records efficiently by identification</li>
+                  <li>Update existing student information and coursework</li>
+                  <li>Delete obsolete student entries</li>
+                  <li>Enter, compute, and display student grade metrics</li>
+                  <li>Applies fundamental OOP concepts (encapsulation and abstraction)</li>
+                  <li>Robust input parsing and structured memory handling</li>
+                </ul>
+              </div>
+
+              <!-- Tech Badges -->
+              <div class="project-tech-badges" aria-label="Technologies used">
+                <span class="tech-pill">C++</span>
+                <span class="tech-pill">Object-Oriented Programming</span>
+                <span class="tech-pill">Data Structures</span>
+                <span class="tech-pill">Console Application</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="#" class="btn btn-sm btn-primary project-action-btn" data-action="placeholder-demo" aria-label="View Student Management System demo placeholder">
+                <span>View Project</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+              <a href="#" class="btn btn-sm btn-outline project-action-btn" data-action="placeholder-repo" aria-label="View Student Management System GitHub repository link placeholder">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub Repository</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Future Extensibility Note -->
+        <div class="projects-note animate-on-scroll">
+          <p>
+            <span class="note-badge">Note</span>
+            Direct project repositories and live deployments are currently being updated. Click any button above for release status details.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE & TRAINING SECTION -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-tag">Trajectory</span>
+          <h2 class="section-title">Experience & Training</h2>
+          <p class="section-subtitle">
+            A chronological timeline of structured technical training programs and collaborative engineering activities.
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline">
+
+            <!-- Item 1: DEPI -->
+            <div class="timeline-item ongoing animate-on-scroll">
+              <div class="timeline-marker">
+                <span class="marker-dot"></span>
+                <span class="marker-pulse"></span>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-header-block">
+                  <div class="timeline-entity">
+                    <h3 class="timeline-role">.NET Full Stack Development</h3>
+                    <h4 class="timeline-org">DEPI (Digital Egypt Pioneers Initiative)</h4>
+                  </div>
+                  <div class="timeline-meta">
+                    <span class="timeline-period">July 2026 – Present</span>
+                    <span class="timeline-status-badge in-progress">In Progress</span>
+                  </div>
+                </div>
+                <p class="timeline-description">
+                  Participating in a technical training program focused on .NET full-stack web development. Building technical knowledge through structured learning and practical development activities covering backend APIs, databases, and modern software design patterns.
+                </p>
+                <div class="timeline-tags">
+                  <span class="mini-tag">.NET Full Stack</span>
+                  <span class="mini-tag">ASP.NET Core</span>
+                  <span class="mini-tag">Software Practices</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 2: Assiut Robotics -->
+            <div class="timeline-item team animate-on-scroll">
+              <div class="timeline-marker">
+                <span class="marker-dot"></span>
+                <span class="marker-pulse"></span>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-header-block">
+                  <div class="timeline-entity">
+                    <h3 class="timeline-role">Frontend Developer</h3>
+                    <h4 class="timeline-org">Assiut Robotics</h4>
+                  </div>
+                  <div class="timeline-meta">
+                    <span class="timeline-period">August 2026 – Present</span>
+                    <span class="timeline-status-badge current">Current Team Member</span>
+                  </div>
+                </div>
+                <p class="timeline-description">
+                  Participating as a Frontend Developer team member at Assiut Robotics, contributing to frontend development activities and continuing to develop practical web development, UI responsiveness, and collaborative teamwork skills.
+                </p>
+                <div class="timeline-tags">
+                  <span class="mini-tag">Team Collaboration</span>
+                  <span class="mini-tag">Frontend Development</span>
+                  <span class="mini-tag">UI Implementation</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 3: Route Academy -->
+            <div class="timeline-item completed animate-on-scroll">
+              <div class="timeline-marker">
+                <span class="marker-dot"></span>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-header-block">
+                  <div class="timeline-entity">
+                    <h3 class="timeline-role">.NET Track</h3>
+                    <h4 class="timeline-org">Route Academy</h4>
+                  </div>
+                  <div class="timeline-meta">
+                    <span class="timeline-period">November 2025 – July 2026</span>
+                    <span class="timeline-status-badge completed">Completed</span>
+                  </div>
+                </div>
+                <p class="timeline-description">
+                  Completed training in the .NET development track, developing foundational skills in C#, object-oriented programming, and web application development with ASP.NET Core and Entity Framework.
+                </p>
+                <div class="timeline-tags">
+                  <span class="mini-tag">C#</span>
+                  <span class="mini-tag">OOP</span>
+                  <span class="mini-tag">Web Development</span>
+                  <span class="mini-tag">SQL Server</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 4: ITI -->
+            <div class="timeline-item completed animate-on-scroll">
+              <div class="timeline-marker">
+                <span class="marker-dot"></span>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-header-block">
+                  <div class="timeline-entity">
+                    <h3 class="timeline-role">Introduction to Web Technologies</h3>
+                    <h4 class="timeline-org">ITI (Information Technology Institute)</h4>
+                  </div>
+                  <div class="timeline-meta">
+                    <span class="timeline-period">August 2024</span>
+                    <span class="timeline-status-badge completed">Completed</span>
+                  </div>
+                </div>
+                <p class="timeline-description">
+                  Completed introductory training in web technologies, covering foundational concepts related to web development, semantic markup, and internet fundamentals.
+                </p>
+                <div class="timeline-tags">
+                  <span class="mini-tag">Web Fundamentals</span>
+                  <span class="mini-tag">HTML & CSS</span>
+                  <span class="mini-tag">Client-Server Basics</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-tag">Offerings</span>
+          <h2 class="section-title">Services & Capabilities</h2>
+          <p class="section-subtitle">
+            Areas of development where I apply my current training and technical skills to deliver practical solutions.
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="services-grid">
+          
+          <!-- Service 1: Web Development -->
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Web Development</h3>
+            <p class="service-description">
+              Building responsive, user-friendly web interfaces and web applications using modern web technologies. Focused on mobile responsiveness, accessible layouts, and clear information presentation.
+            </p>
+            <div class="service-footer">
+              <span class="service-indicator">HTML5 • CSS3 • JavaScript • Responsive</span>
+            </div>
+          </div>
+
+          <!-- Service 2: Backend Development -->
+          <div class="service-card featured-service animate-on-scroll">
+            <div class="service-highlight-badge">Core Focus</div>
+            <div class="service-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Backend Development</h3>
+            <p class="service-description">
+              Developing backend functionality and RESTful APIs using C# and ASP.NET Core, with a focus on structured application logic, clean architecture, authentication, and maintainable code.
+            </p>
+            <div class="service-footer">
+              <span class="service-indicator">C# • ASP.NET Core • Web API • JWT</span>
+            </div>
+          </div>
+
+          <!-- Service 3: Database Development -->
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Database Development</h3>
+            <p class="service-description">
+              Working with Microsoft SQL Server to structure relational data, create queries, and support web application data management using Entity Framework Core Code First migrations.
+            </p>
+            <div class="service-footer">
+              <span class="service-indicator">SQL Server • EF Core • Relational Modeling</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CAREER OBJECTIVE SECTION -->
+    <section class="section objective" id="objective">
+      <div class="container">
+        <div class="objective-card animate-on-scroll">
+          <div class="objective-icon-badge" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <circle cx="12" cy="12" r="6"></circle>
+              <circle cx="12" cy="12" r="2"></circle>
+            </svg>
+          </div>
+          <span class="section-tag">Career Aspirations</span>
+          <h2 class="objective-heading">Career Objective</h2>
+          <blockquote class="objective-quote">
+            "My goal is to grow as a .NET backend developer by building reliable web applications and APIs, strengthening my software engineering fundamentals, and contributing to meaningful projects. I am seeking internship and junior developer opportunities where I can apply my skills, learn from experienced teams, and continue developing as a software professional."
+          </blockquote>
+          <div class="objective-author">
+            <span class="author-name">Shahd Walid</span>
+            <span class="author-role">Full-Stack Developer | Focused on .NET Backend</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">
+            Interested in discussing an internship, junior position, or freelance opportunity? Let's connect!
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info Column -->
+          <div class="contact-info-column animate-on-scroll">
+            <div class="contact-card">
+              <h3 class="contact-info-title">Let's Connect</h3>
+              <p class="contact-info-text">
+                I am actively seeking junior developer roles and internship opportunities in .NET backend development and full-stack web solutions.
+              </p>
+
+              <div class="contact-details-list">
+                <!-- Location Item -->
+                <div class="contact-detail-item">
+                  <div class="contact-detail-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div>
+                    <span class="detail-label">Location</span>
+                    <span class="detail-val">Assiut, Egypt</span>
+                  </div>
+                </div>
+
+                <!-- Verified LinkedIn Link -->
+                <div class="contact-detail-item">
+                  <div class="contact-detail-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                      <rect x="2" y="9" width="4" height="12"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                  </div>
+                  <div>
+                    <span class="detail-label">LinkedIn Profile</span>
+                    <a href="https://www.linkedin.com/in/shahd-walid1" target="_blank" rel="noopener noreferrer" class="detail-link">
+                      linkedin.com/in/shahd-walid1
+                      <svg class="external-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Verified Resume Link -->
+                <div class="contact-detail-item">
+                  <div class="contact-detail-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                      <polyline points="14 2 14 8 20 8"></polyline>
+                      <line x1="16" y1="13" x2="8" y2="13"></line>
+                      <line x1="16" y1="17" x2="8" y2="17"></line>
+                      <polyline points="10 9 9 9 8 9"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <span class="detail-label">Curriculum Vitae</span>
+                    <a href="https://drive.google.com/file/d/15Nksk6MhmTsYX-2U_2-Qhi1ewCUg0cTZ/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="detail-link">
+                      View / Download Resume (Google Drive)
+                      <svg class="external-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Other platforms note -->
+              <div class="platform-note">
+                <span class="note-title">Profiles & Social Channels:</span>
+                <p>Additional profiles (GitHub, YouTube) will be linked as public repositories and recordings become available.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-column animate-on-scroll">
+            <div class="form-card">
+              <h3 class="form-title">Send a Direct Message</h3>
+
+              <!-- Notice explaining frontend demonstration nature -->
+              <div class="form-demo-notice" role="note">
+                <svg class="notice-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="16" x2="12" y2="12"></line>
+                  <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                </svg>
+                <div class="notice-content">
+                  <strong>Frontend Demonstration Notice:</strong>
+                  <span>This contact form performs client-side validation only. Because no backend server or email dispatch service is attached, submitted messages are simulated locally. Please reach out via <a href="https://www.linkedin.com/in/shahd-walid1" target="_blank" rel="noopener noreferrer">LinkedIn</a> for direct inquiries.</span>
+                </div>
+              </div>
+
+              <form id="contact-form" class="contact-form" novalidate>
+                <!-- Full Name Field -->
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Full Name <span class="required" aria-hidden="true">*</span></label>
+                  <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Sarah Jenkins" autocomplete="name" required aria-required="true" aria-describedby="name-error">
+                  <span id="name-error" class="form-error" role="alert" aria-live="polite"></span>
+                </div>
+
+                <!-- Email Field -->
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">Email Address <span class="required" aria-hidden="true">*</span></label>
+                  <input type="email" id="contact-email" name="email" class="form-input" placeholder="name@company.com" autocomplete="email" required aria-required="true" aria-describedby="email-error">
+                  <span id="email-error" class="form-error" role="alert" aria-live="polite"></span>
+                </div>
+
+                <!-- Subject Field -->
+                <div class="form-group">
+                  <label for="contact-subject" class="form-label">Subject <span class="required" aria-hidden="true">*</span></label>
+                  <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="Internship Opportunity / Project Inquiry" required aria-required="true" aria-describedby="subject-error">
+                  <span id="subject-error" class="form-error" role="alert" aria-live="polite"></span>
+                </div>
+
+                <!-- Message Field -->
+                <div class="form-group">
+                  <label for="contact-message" class="form-label">Message <span class="required" aria-hidden="true">*</span></label>
+                  <textarea id="contact-message" name="message" class="form-textarea" rows="5" placeholder="Share details about the role, project, or training opportunity..." required aria-required="true" aria-describedby="message-error"></textarea>
+                  <span id="message-error" class="form-error" role="alert" aria-live="polite"></span>
+                </div>
+
+                <!-- Form Feedback Status Banner -->
+                <div id="form-feedback" class="form-feedback" role="status" aria-live="polite" hidden></div>
+
+                <!-- Submit Button -->
+                <button type="submit" id="submit-btn" class="btn btn-primary btn-block">
+                  <span class="btn-text">Send Message</span>
+                  <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Interactive Project Status Modal / Toast -->
+  <div id="project-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="modal-title" class="modal-title">Repository Notice</h3>
+        <button id="modal-close" class="modal-close-btn" aria-label="Close dialog">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p id="modal-message">The code repository and live deployment for this project are currently being prepared for public release.</p>
+      </div>
+      <div class="modal-footer">
+        <button id="modal-action-btn" class="btn btn-sm btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Scroll to top of page">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand-col">
+        <a href="#hero" class="brand footer-brand" aria-label="Shahd Walid - Return to top">
+          <span class="brand-badge">SW</span>
+          <span class="brand-text">Shahd<span class="brand-accent">.Walid</span></span>
+        </a>
+        <p class="footer-tagline">
+          Full-Stack Developer focused on .NET backend architecture, reliable RESTful APIs, and clean software solutions.
+        </p>
+      </div>
+
+      <div class="footer-links-col">
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul class="footer-nav">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-verified-col">
+        <h4 class="footer-heading">Verified Profiles</h4>
+        <ul class="footer-nav">
+          <li>
+            <a href="https://www.linkedin.com/in/shahd-walid1" target="_blank" rel="noopener noreferrer">
+              <span>LinkedIn Profile</span>
+              <svg class="external-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/file/d/15Nksk6MhmTsYX-2U_2-Qhi1ewCUg0cTZ/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+              <span>Resume / CV (Google Drive)</span>
+              <svg class="external-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copyright">
+          &copy; <span id="current-year">2026</span> Shahd Walid. All rights reserved.
+        </p>
+        <p class="footer-location-note">Assiut, Egypt • Built with HTML5, CSS3 & Vanilla JavaScript</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
